@@ -10,3 +10,5 @@ node_modules
 *.sublime-workspace
 *.log
 *.map
+
+/vendor/
