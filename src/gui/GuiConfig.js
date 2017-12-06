@@ -11,7 +11,7 @@ class GuiConfig {
   init(guiParent) {
     // config stuffs
     this._langs = Object.keys(TR.languages);
-    this._menu = guiParent.addMenu('Language');
+    this._menu = guiParent.addMenu(TR('language'));
     this._menu.addCombobox('', this._langs.indexOf(TR.select), this.onLangChange.bind(this), this._langs);
   }
 

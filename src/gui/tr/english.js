@@ -205,7 +205,17 @@ var TR = {
   envGlazedPatio: 'Glazed Patio',
   envNicolausChurch: 'St Nicolaus church',
   envTerrace: 'Terrace',
-  envBryantPark: 'BryantPark'
+  envBryantPark: 'BryantPark',
+
+  // Language
+  language: 'Language',
+  extraUI: 'Extra UI',
+  overall: 'Overall',
+  advanced: 'Advanced',
+  widget: 'Widget',
+  back: 'Tack',
+  text: 'Text',
+  border: 'Border',
 };
 
 export default TR;

@@ -65,16 +65,16 @@ class Gui {
     ctrls[idc++] = this._ctrlTopology = new GuiTopology(this._sidebar, this);
     ctrls[idc++] = this._ctrlSculpting = new GuiSculpting(this._sidebar, this);
 
-    // gui extra
-    var extra = this._topbar.addExtra();
-    // Extra : Настройка интерфейса
-    extra.addTitle(TR('contour'));
-    extra.addColor(TR('contourColor'), ShaderContour.color, this.onContourColor.bind(this));
+    // // gui extra
+    // var extra = this._topbar.addExtra();
+    // // Extra : Настройка интерфейса
+    // extra.addTitle(TR('contour'));
+    // extra.addColor(TR('contourColor'), ShaderContour.color, this.onContourColor.bind(this));
 
-    extra.addTitle(TR('resolution'));
-    extra.addSlider('', this._main._pixelRatio, this.onPixelRatio.bind(this), 0.5, 2.0, 0.02);
+    // extra.addTitle(TR('resolution'));
+    // extra.addSlider('', this._main._pixelRatio, this.onPixelRatio.bind(this), 0.5, 2.0, 0.02);
 
-    this.addAboutButton();
+    // this.addAboutButton();
 
     this.updateMesh();
     this.setVisibility(true);

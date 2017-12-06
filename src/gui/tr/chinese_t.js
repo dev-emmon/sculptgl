@@ -206,6 +206,16 @@ var TR = {
   envNicolausChurch: '聖尼古拉斯教堂',
   envTerrace: '陽台',
   envBryantPark: '布萊恩特公園'
+
+  // Language
+  language: '語言',
+  extraUI: '主題',
+  overall: '整體',
+  advanced: '高級設置',
+  widget: '控件',
+  back: '背景',
+  text: '文字',
+  border: '邊框',
 };
 
 export default TR;
