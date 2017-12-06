@@ -205,7 +205,7 @@ var TR = {
   envGlazedPatio: '庭院',
   envNicolausChurch: '聖尼古拉斯教堂',
   envTerrace: '陽台',
-  envBryantPark: '布萊恩特公園'
+  envBryantPark: '布萊恩特公園',
 
   // Language
   language: '語言',
