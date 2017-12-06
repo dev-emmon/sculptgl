@@ -1,10 +1,6 @@
 {
-    "name": "esculptgl",
-    "repo": "component/esculptgl",
+    "name": "dev-emmon/esculptgl",
     "description": "A WebGL digital sculpting app",
-    "require": {
-        "konjed/sculptor": "0.8.1"
-    },
     "dependencies": {
         "@babel/core": "^7.0.0-beta.34",
         "@babel/preset-env": "^7.0.0-beta.34",
@@ -21,6 +17,7 @@
     "scripts": [
         "main.js"
     ],
+    "version": "0.8.1",
     "license": "MIT",
     "authors": [
         {
