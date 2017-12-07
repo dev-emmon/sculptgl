@@ -10,7 +10,12 @@
   "private": true,
   "ignore": [
     "**/.*",
+    "app/",
+    "lib/",
     "node_modules",
+    "src/",
+    "standalone/",
+    "tools/",
     "bower_components",
     "test",
     "tests"
