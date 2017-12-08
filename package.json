@@ -25,6 +25,7 @@
   "scripts": {
     "dev": "cp tools/index.dev.html app/index.html && cp tools/authSuccess.html app/authSuccess.html && webpack -w",
     "release": "rm -f app/sculptgl.js.map && cp tools/index.release.html app/index.html && cp tools/authSuccess.html app/authSuccess.html && webpack --env.release",
+    "dist": "webpack --env.release && cp -rf app/css dist/app/css && cp -rf app/resources dist/app/resources && cp -rf app/worker dist/app/worker && cp -rf app/sculptgl.js dist/app/sculptgl.js",
     "buildElectron": "yarn release && rm -rf standalone/app/ && cp -R app/ standalone/ && cp package.json standalone",
     "standalone": "yarn buildElectron && cd standalone && node buildStandalone.js"
   },
