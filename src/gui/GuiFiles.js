@@ -32,7 +32,7 @@ class GuiFiles {
     menu.addButton(TR('fileExportOBJ'), this, 'saveFileAsOBJ' /*, 'CTRL+E'*/ );
     menu.addButton(TR('fileExportPLY'), this, 'saveFileAsPLY');
     menu.addButton(TR('fileExportSTL'), this, 'saveFileAsSTL');
-    menu.addButton(TR('sketchfabTitle'), this, 'exportSketchfab');
+    // menu.addButton(TR('sketchfabTitle'), this, 'exportSketchfab');
   }
 
   addFile() {

@@ -15,7 +15,7 @@ ShaderMatcap.createTexture = function (gl, img, idMaterial) {
   ShaderMatcap.textures[idMaterial] = idTex;
 };
 
-var texPath = 'resources/matcaps/';
+var texPath = '/components/em-sculptgl/app/resources/matcaps/';
 ShaderMatcap.matcaps = [{
   path: texPath + 'matcapFV.jpg',
   name: 'matcap FV' // too lazy to tr

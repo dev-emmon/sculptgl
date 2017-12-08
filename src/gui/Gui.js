@@ -80,26 +80,26 @@ class Gui {
     this.setVisibility(true);
   }
 
-  onPixelRatio(val) {
-    this._main._pixelRatio = val;
-    this._main.onCanvasResize();
-  }
+  // onPixelRatio(val) {
+  //   this._main._pixelRatio = val;
+  //   this._main.onCanvasResize();
+  // }
 
-  onContourColor(col) {
-    ShaderContour.color[0] = col[0];
-    ShaderContour.color[1] = col[1];
-    ShaderContour.color[2] = col[2];
-    ShaderContour.color[3] = col[3];
-    this._main.render();
-  }
+  // onContourColor(col) {
+  //   ShaderContour.color[0] = col[0];
+  //   ShaderContour.color[1] = col[1];
+  //   ShaderContour.color[2] = col[2];
+  //   ShaderContour.color[3] = col[3];
+  //   this._main.render();
+  // }
 
-  addAboutButton() {
-    var ctrlAbout = this._topbar.addMenu();
-    ctrlAbout.domContainer.innerHTML = TR('about');
-    ctrlAbout.domContainer.addEventListener('mousedown', function () {
-      window.open('http://stephaneginier.com', '_blank');
-    });
-  }
+  // addAboutButton() {
+  //   var ctrlAbout = this._topbar.addMenu();
+  //   ctrlAbout.domContainer.innerHTML = TR('about');
+  //   ctrlAbout.domContainer.addEventListener('mousedown', function () {
+  //     window.open('http://stephaneginier.com', '_blank');
+  //   });
+  // }
 
   getWidgetNotification() {
     if (!this._ctrlNotification) {

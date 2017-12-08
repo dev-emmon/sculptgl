@@ -31,8 +31,9 @@ GuiTR.languages = {
   // 'français': french
 };
 
-GuiTR.select = '中文';
+GuiTR.select = '中文(简体)';
 var language = window.navigator.language || window.navigator.userLanguage;
+// var language = 'zh';
 if (language) language = language.substr(0, 2);
 if (language === 'en') GuiTR.select = 'english';
 else if (language === 'zh_s') GuiTR.select = '中文(简体)';

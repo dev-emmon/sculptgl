@@ -18,6 +18,8 @@
     "tools/",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "webpack.config.js",
+    "main.js"
   ]
 }

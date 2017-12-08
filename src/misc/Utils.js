@@ -10,7 +10,7 @@ Utils.STATE_FLAG = 1; // flag value for states (always >= tags values)
 Utils.TRI_INDEX = 4294967295; // just a big integer to flag invalid positive index
 
 Utils.cursors = {};
-Utils.cursors.dropper = 'url(resources/dropper.png) 5 25, auto';
+Utils.cursors.dropper = 'url(/components/em-sculptgl/app/resources/dropper.png) 5 25, auto';
 
 Utils.linearToSRGB1 = function (x) {
   return x < 0.0031308 ? x * 12.92 : 1.055 * Math.pow(x, 1.0 / 2.4) - 0.055;
