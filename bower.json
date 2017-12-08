@@ -10,7 +10,7 @@
   "private": true,
   "ignore": [
     "**/.*",
-    "app/",
+    "dist/",
     "lib/",
     "node_modules",
     "src/",
