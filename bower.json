@@ -5,6 +5,7 @@
   "authors": [
     "dev-emmon"
   ],
+  "version": "0.8.2",
   "license": "MIT",
   "homepage": "https://github.com/dev-emmon/sculptgl",
   "private": true,
